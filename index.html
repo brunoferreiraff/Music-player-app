@@ -21,9 +21,19 @@
             <img src="hiphop2.jpg" alt="dancarinos" class="song-img">
             <h1>Till I'm on top </h1>
             <p>NEFFEX</p>
-            <audio controls>
+            <audio  id="song">
                 <source src="Till I'm on Top - NEFFEX.mp3" type="audio/mpeg">
             </audio>
+            <input type="range" value="0" id="bar">
+
+            <div class="controls" id="song">
+                
+                    <div><i class="fa-solid fa-backward"></i></div>
+                    <div onclick="playPause()"><i  class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                    <div><i class="fa-solid fa-forward"></i></div>
+                
+
+            </div>
         </div>   
     </div>
 
